@@ -1,0 +1,151 @@
+/* Style du fond du jeu /) */
+#potatogochi-background {
+
+    /* Affiche un dégradé de couleurs /) */
+    background-image: linear-gradient(180deg, rgba(255,110,110,1) 0%, rgba(255,195,51,1) 100%);
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* L'élément prend l'espace de la page entière /) */
+    inset: 0;
+
+    /* L'élément s'affiche à la couche 1 (couche plus haute = affiché au dessus) /) */
+    z-index: 1;
+
+}
+
+/* Style du jeu lui-même /) */
+#potatogochi {
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* L'élément prend l'espace de la page entière /) */
+    inset: 0;
+
+    /* L'élément s'affiche à la couche 3 (couche plus haute = affiché au dessus) /) */
+    z-index: 3;
+
+}
+
+/* Style de la pomme de terre elle-même /) */
+#potato {
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* Hauteur: 256 pixels; largeur: 256 pixels /) */
+    height: 256px;
+    width: 256px;
+
+    /* L'élément s'affiche à la couche 4 (couche plus haute = affiché au dessus) /) */
+    z-index: 4;
+
+    /* Anime les changements des propriétés "top" et "left" sur 500 millisecondes /) */
+    transition: top 500ms, left 500ms;
+
+}
+
+/* Style du visage de la pomme de terre /) */
+#potato-face {
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* Hauteur: 256 pixels; largeur: 256 pixels /) */
+    height: 256px;
+    width: 256px;
+
+    /* L'élément s'affiche à la couche 6 (couche plus haute = affiché au dessus) /) */
+    z-index: 6;
+
+    /* Anime les changements des propriétés "top" et "left" sur 500 millisecondes /) */
+    transition: top 500ms, left 500ms;
+
+}
+
+/* Style de la boîte de collision du jeu /) */
+#potato-collider {
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* Hauteur: 512 pixels; largeur: 512 pixels | 2 fois la pomme de terre /) */
+    height: 512px;
+    width: 512px;
+
+    /* L'élément s'affiche à la couche 4 (couche plus haute = affiché au dessus) /) */
+    z-index: 4;
+
+    /* Anime les changements des propriétés "top" et "left" sur 500 millisecondes /) */
+    transition: top 500ms, left 500ms;
+
+}
+
+/* Style des crédits /) */
+#potatogochi-credits {
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* L'élément prend l'espace de la page entière /) */
+    inset: 0;
+
+    /* L'élément s'affiche à la couche 2 (couche plus haute = affiché au dessus) /) */
+    z-index: 2;
+
+}
+
+/* Style du logo affiché en haut de la page /) */
+#potatogochi-logo {
+
+    /* Hauteur: 48 pixels /) */
+    height: 48px;
+
+    /* Marge de 20 pixels en haut /) */
+    margin-top: 20px;
+
+    /* Affiche l'élément comme un bloc /) */
+    display: block;
+
+    /* Ces deux propriétés permettent de centrer l'image horizontalement /) */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Style du pied de page /) */
+#potatogochi-footer {
+
+    /* Définit la position comme étant des coordonnées absolues /) */
+    position: fixed;
+
+    /* Hauteur: 48 pixels */
+    height: 48px;
+
+    /* Position: 20 pixels en partant du bas /) */
+    bottom: 20px;
+
+    /* Affiche l'élément comme un bloc /) */
+    display: block;
+
+    /* Ces deux propriétés permettent d'étendre l'élément horizontalement /) */
+    left: 0;
+    right: 0;
+
+    /* Centre le texte horizontalement /) */
+    text-align: center;
+
+}
+
+/* Style du texte, appliqué sur toute la page /) */
+* {
+
+    /* Définit la police sur une police sans serif du système /) */
+    font-family: sans-serif;
+
+    /* Définit la couleur du texte sur du noir avec une opacité de 50% /) */
+    color: #0000007F;
+
+}

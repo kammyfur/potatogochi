@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Définit l'encodage sur UTF-8 /) -->
+    <meta charset="UTF-8">
+
+    <!-- Définit le titre de l'onglet comme étant "Potatogochi" /) -->
+    <title>Potatogochi</title>
+
+    <!-- Définit l'image de l'onglet comme étant /assets/favicon.png /) -->
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <!-- Charge le fichier CSS /assets/style.css /) -->
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Charge le JS /dist/index.js compilé à partir de /src/index.ts /) -->
+    <script src="/dist/index.js"></script>
+
+</head>
+<body>
+
+    <!-- Le fond du jeu /) -->
+    <div id="potatogochi-background"></div>
+
+    <!-- Le jeu en lui-même /) -->
+    <div id="potatogochi">
+
+        <!-- La boite de collision du jeu, 2x la taille de la pomme de terre, par défaut au centre de la page /) -->
+        <div id="potato-collider" style="left: calc(50vw - 256px); top: calc(50vh - 256px);"></div>
+
+        <!-- L'image de la pomme de terre elle-même, par défaut au centre de la page /) -->
+        <img alt="potato" id="potato" src="/assets/potato.png" style="left: calc(50vw - 128px); top: calc(50vh - 128px);">
+
+        <!-- L'image du visage de la pomme de terre, par défaut au centre de la page /) -->
+        <img alt="potato" id="potato-face" src="/assets/face-happy-open.png" style="left: calc(50vw - 128px); top: calc(50vh - 128px);">
+
+    </div>
+
+    <!-- Le titre et les crédits du jeu /) -->
+    <div id="potatogochi-credits">
+
+        <!-- Le logo du jeu, affiché en haut /) -->
+        <img src="/assets/logo.png" alt="Potatogochi" id="potatogochi-logo">
+
+        <!-- Le pied de page /) -->
+        <div id="potatogochi-footer">
+
+            <!-- Information de droits d'auteurs ; n'affiche pas le nom réel, car le site est public /) -->
+            © 2022 Equestria.dev, All rights reserved<br>
+
+            <!-- Le code est accessible à la page /source, et les icônes viennent du site icons8.com /) -->
+            Code: /source · Icons: icons8.com
+
+        </div>
+
+    </div>
+
+</body>
+</html>
